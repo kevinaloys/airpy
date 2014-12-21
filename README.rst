@@ -15,9 +15,10 @@ Usage
 Installation::
 
     $ pip install airpy
-    $ airpy install django -v 1.7
+    $ airpy install django # Defaults to Latest version of Django
+    $ airpy install django -v 1.6
 
 Start offline Documentation::
 
-    $ airpy start django -v 1.7
+    $ airpy start django
     $ Django 1.7 docs available at http://localhost:80/django-1.7/
