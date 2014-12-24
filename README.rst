@@ -15,6 +15,22 @@ Usage
 Installation::
 
     $ pip install airpy
+    $ airpy
+    
+    Usage: airpy [OPTIONS] COMMAND [ARGS]...
+
+    Options:
+      --help  Show this message and exit.
+
+    Commands:
+      info     Get Information on a particular doc
+      install  Install offline doc of a Python module.
+      list     List installed docs.
+      remove   Remove an installed doc.
+      search   Search for the doc of a Python module.
+      start    Open the doc in a web browser.
+      update   Fetch the latest updated doc.
+
     $ airpy install django # Defaults to Latest version of Django
     $ airpy install django -v 1.6
 
