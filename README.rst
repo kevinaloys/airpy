@@ -1,6 +1,9 @@
 AirPy
 =====
 
+.. image:: https://travis-ci.org/kevinaloys/airpy.svg
+    :target: https://travis-ci.org/kevinaloys/airpy
+    
 - Users can install offline versions of the Official Python Documentation
   or the documentation of their favorite Python packages.
 
