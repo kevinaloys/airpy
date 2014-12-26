@@ -1,6 +1,6 @@
 *.pyc
 *.egg-info
 docs/_build
-ripper/__pycache__
+airpy/__pycache__
 build/
 dist/
