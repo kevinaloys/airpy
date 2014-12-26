@@ -7,6 +7,7 @@ from airpy.install import airinstall
 from airpy.list import airlist
 from airpy.start import airstart
 from airpy.remove import airremove
+from airpy.autopilot import airautopilot
 def main():
 	@click.group()
 	def airpy():
@@ -28,7 +29,6 @@ def main():
 	@click.option('--all')
 	def remove(name, all):
 		airremove(name)
-		return all
 	
 	@airpy.command(help = 'Search for Python docs.')
 	@click.argument('name')
@@ -46,7 +46,7 @@ def main():
 
 	@airpy.command(help = 'Auto install docs.')
 	def autopilot():
-		pass
+		airautopilot()
 
 	airpy()
 
