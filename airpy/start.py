@@ -1,7 +1,6 @@
 import click
 import airpy
 import os
-import webbrowser
 
 
 def airstart(name):
@@ -11,4 +10,4 @@ def airstart(name):
 		click.echo('You can install it by typing, airpy install ' + name)
 	else:
 		static_dir = directory + '/' + name + '-latest' + '/index.html' 
-		return webbrowser.open(static_dir)
+		return click.launch(static_dir)
