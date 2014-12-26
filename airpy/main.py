@@ -10,46 +10,43 @@ from airpy.remove import airremove
 def main():
 	@click.group()
 	def airpy():
+		"""AirPy : Documentation Installer for the Pythonic Soul™"""
 		pass
 
-	@airpy.command()
+	@airpy.command(help = 'Install offline doc of a Python module.')
 	@click.argument('name')
 	def install(name):
-		"""Install offline doc of a Python module."""
 		airinstall(name)
 		
-	@airpy.command()
+	@airpy.command(help = 'Start a doc in a browser.')
 	@click.argument('name')
 	def start(name):
-		"""Open the doc in a web browser."""
 		airstart(name)
 
-	@airpy.command()
+	@airpy.command(help = 'Remove an installed doc.')
 	@click.argument('name')
-	def remove(name):
-		"""Remove an installed doc."""
+	@click.option('--all')
+	def remove(name, all):
 		airremove(name)
+		return all
 	
-	@airpy.command()
-	@click.argument('name')
-	def update(name):
-		"""Fetch the latest updated doc."""
-		pass
-
-	@airpy.command()
+	@airpy.command(help = 'Search for Python docs.')
 	@click.argument('name')
 	def search(name):
-		"""Search for the doc of a Python module."""
 		pass
 	
-	@airpy.command()
+	@airpy.command(help = 'List installed docs.')
 	def list():
-		"""List installed docs."""
 		airlist()
 
-	@airpy.command()
-	def info(name):
-		"""Get Information on a particular doc"""
+	@airpy.command(help = 'Show information about installed docs.')
+	@click.argument('name')
+	def show(name):
+		pass
+
+	@airpy.command(help = 'Auto install docs.')
+	def autopilot():
+		pass
 
 	airpy()
 
