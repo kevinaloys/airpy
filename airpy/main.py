@@ -6,6 +6,7 @@ from appdirs import user_data_dir
 from airpy.install import airinstall
 from airpy.list import airlist
 from airpy.start import airstart
+from airpy.remove import airremove
 def main():
 	@click.group()
 	def airpy():
@@ -27,6 +28,7 @@ def main():
 	@click.argument('name')
 	def remove(name):
 		"""Remove an installed doc."""
+		airremove(name)
 	
 	@airpy.command()
 	@click.argument('name')
