@@ -1,9 +1,9 @@
 import os
 import requests
 import zipfile
-import airpy
 import click
 import io
+import airpy
 
 def airinstall(name):
 	directory = airpy.data_directory + '/' + name

@@ -1,8 +1,8 @@
 import click
 import airpy
 import os
-import airpy
 import webbrowser
+
 
 def airstart(name):
 	directory = airpy.data_directory + '/' + name
