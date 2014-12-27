@@ -20,21 +20,21 @@ Installation::
     $ pip install airpy
     $ airpy
     
-Usage: airpy [OPTIONS] COMMAND [ARGS]...
+    Usage: airpy [OPTIONS] COMMAND [ARGS]...
 
-  AirPy : Documentation Installer for the Pythonic Soul™
+        AirPy : Documentation Installer for the Pythonic Soul™
 
-Options:
-  --help  Show this message and exit.
+    Options:
+        --help  Show this message and exit.
 
-Commands:
-  autopilot  Auto install docs.
-  install    Install offline doc of a Python module.
-  list       List installed docs.
-  remove     Remove an installed doc.
-  search     Search for Python docs.
-  show       Show information about installed docs.
-  start      Start a doc in a browser.
+    Commands:
+        autopilot  Auto install docs.
+        install    Install offline doc of a Python module.
+        list       List installed docs.
+        remove     Remove an installed doc.
+        search     Search for Python docs.
+        show       Show information about installed docs.
+        start      Start a doc in a browser.
 
 
 Start offline Documentation::
