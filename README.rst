@@ -43,7 +43,7 @@ Auto Install Documentation for Python packages already installed in your system.
 
     $ airpy autopilot
     $ airpy list
-        flask requests django sphinx wheel setuptools
+      flask   requests   django   sphinx   wheel   setuptools
 
 
 
