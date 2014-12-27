@@ -30,20 +30,22 @@ Installation::
 Install a Documentation::
 
     $ airpy install requests
-    $ airpy install flask
-
-Start the Documentation::
-    
-    $ airpy start requests
-    $ airpy start flask
 
 Remove a Documentation::
 
     $ airpy remove requests
-    $ airpy remove flask
+
+Start the Documentation::
+    
+    $ airpy start requests
 
 Auto Install Documentation for Python packages already installed in your system.::
 
     $ airpy autopilot
     $ airpy list
-      sphinx  wheel  requests  pip  jinja2  setuptools 
+        flask requests django sphinx wheel setuptools
+
+
+
+
+
