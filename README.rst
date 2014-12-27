@@ -35,11 +35,11 @@ Remove a Documentation::
 
     $ airpy remove requests
 
-Start the Documentation::
+Start the Documentation in a browser::
     
     $ airpy start requests
 
-Auto Install Documentation for Python packages already installed in your system.::
+AirPy Autopilot : Install Documentation for Python packages already installed in your system.::
 
     $ airpy autopilot
     $ airpy list
