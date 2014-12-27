@@ -30,19 +30,9 @@ def main():
 	def remove(name, all):
 		airremove(name)
 	
-	@airpy.command(help = 'Search for Python docs.')
-	@click.argument('name')
-	def search(name):
-		pass
-	
 	@airpy.command(help = 'List installed docs.')
 	def list():
 		airlist()
-
-	@airpy.command(help = 'Show information about installed docs.')
-	@click.argument('name')
-	def show(name):
-		pass
 
 	@airpy.command(help = 'Auto install docs.')
 	def autopilot():
