@@ -32,8 +32,6 @@ Installation::
         install    Install offline doc of a Python module.
         list       List installed docs.
         remove     Remove an installed doc.
-        search     Search for Python docs.
-        show       Show information about installed docs.
         start      Start a doc in a browser.
 
 
