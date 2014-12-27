@@ -3,14 +3,6 @@ AirPy
 
 .. image:: https://travis-ci.org/kevinaloys/airpy.svg
     :target: https://travis-ci.org/kevinaloys/airpy
-    
-- Users can install offline versions of the Official Python Documentation
-  or the documentation of their favorite Python packages.
-
-- Can view the offline documentation through a local server instance.
-
-- Have the ability to specify specific versions of the documentation they
-  wish to install e.g Python 3.4, Django 1.7
 
 Usage
 -----
@@ -35,7 +27,23 @@ Installation::
         start      Start a doc in a browser.
 
 
-Start offline Documentation::
+Install a Documentation::
 
-    $ airpy start django
-    $ Django 1.7 docs available at http://localhost:80/django-1.7/
+    $ airpy install requests
+    $ airpy install flask
+
+Start the Documentation::
+    
+    $ airpy start requests
+    $ airpy start flask
+
+Remove a Documentation::
+
+    $ airpy remove requests
+    $ airpy remove flask
+
+Auto Install Documentation for Python packages already installed in your system.::
+
+    $ airpy autopilot
+    $ airpy list
+      sphinx  wheel  requests  pip  jinja2  setuptools 
