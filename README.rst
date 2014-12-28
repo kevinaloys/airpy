@@ -10,6 +10,9 @@ Usage
 Installation::
 
     $ pip install airpy
+    
+Run::
+
     $ airpy
     
     Usage: airpy [OPTIONS] COMMAND [ARGS]...
