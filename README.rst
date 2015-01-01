@@ -6,7 +6,7 @@ AirPy
 
 At the moment, AirPy works as intended in Python 3.4, backward compatibility arriving soon for Python 3.2 and 2.7
 
-\m/ Rock Rules! \m/
+\\m/ Rock Rules! \\m/
 
 Usage
 -----
