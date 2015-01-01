@@ -11,7 +11,7 @@ from airpy.autopilot import airautopilot
 def main():
 	@click.group()
 	def airpy():
-		"""AirPy : Documentation Installer for the Pythonic Soul™"""
+		"""AirPy : Documentation Installer for the Pythonic Soul"""
 		pass
 
 	@airpy.command(help = 'Install offline doc of a Python module.')
