@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup (
 	name = 'airpy',
-	version = '0.0.1',
+	version = '0.0.2',
 	description = 'Documentation Installer for the Pythonic Soul',
 	url = 'https://github.com/kevinaloys/airpy',
 	author = 'Kevin Aloysius',
