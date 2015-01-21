@@ -4,8 +4,6 @@ AirPy
 .. image:: https://travis-ci.org/kevinaloys/airpy.svg
     :target: https://travis-ci.org/kevinaloys/airpy
 
-At the moment, AirPy works as intended in Python 3.4, backward compatibility arriving soon for Python 3.2 and 2.7
-
 
 Usage
 -----
