@@ -2,8 +2,8 @@ AirPy: Documentation Installer for the Pythonic Soul
 =====
 
 .. image:: https://travis-ci.org/kevinaloys/airpy.svg
-    :target: https://travis-ci.org/kevinaloys/airpy
 
+.. image:: https://pypip.in/download/airpy/badge.svg?style=flat
 
 Usage
 -----
