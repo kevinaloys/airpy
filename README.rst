@@ -18,7 +18,7 @@ Run::
     
     Usage: airpy [OPTIONS] COMMAND [ARGS]...
 
-        AirPy : Documentation Installer for the Python 
+        AirPy : Documentation Installer for the Python A
 
     Options:
         --help  Show this message and exit.
