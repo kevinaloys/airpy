@@ -18,7 +18,7 @@ Run::
     
     Usage: airpy [OPTIONS] COMMAND [ARGS]...
 
-        AirPy : Documentation Installer for the Pythonic Soul™
+        AirPy : Documentation Installer for the Python
 
     Options:
         --help  Show this message and exit.
