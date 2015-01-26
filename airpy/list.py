@@ -4,6 +4,7 @@ import airpy
 import json
 import click
 import requests
+from airpy import utils
 from colorama import init
 from colorama import Fore, Back, Style
 init()
@@ -16,12 +17,12 @@ def airlist():
 
 def print_list():
 	installed_docs = airlist()
-	print(Fore.YELLOW + Style.BRIGHT + 'Python Project', end = '\t'*6)
+	print(Fore.YELLOW + Style.BRIGHT + 'Python Project', end = ' '*40)
 	print(Fore.YELLOW + Style.BRIGHT + 'Summary')
-	print(Fore.WHITE + Style.DIM + '-'*15, end = '\t' * 5)
+	print(Fore.WHITE + Style.DIM + '-'*14, end = ' ' * 32)
 	print(Fore.WHITE + Style.DIM + '-'*24,)
 	print()
 	for dir in installed_docs:
-		print(Fore.GREEN + Style.BRIGHT + dir)
+		print(Fore.GREEN + Style.BRIGHT + dir + ' '*(46 - len(dir)) + Fore.WHITE + Style.NORMAL + utils.package_info(dir,'summary'))
 	print(end = '\n')
 
