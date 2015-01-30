@@ -17,12 +17,12 @@ def airlist():
 
 def print_list():
 	installed_docs = airlist()
-	print(Fore.YELLOW + Style.BRIGHT + 'Python Project', end = ' '*30)
+	print(Fore.YELLOW + Style.BRIGHT + 'Python Project', end = ' '*20)
 	print(Fore.YELLOW + Style.BRIGHT + 'Summary')
-	print(Fore.WHITE + Style.DIM + '-'*14, end = ' ' * 21)
+	print(Fore.WHITE + Style.DIM + '-'*14, end = ' ' * 11)
 	print(Fore.WHITE + Style.DIM + '-'*24,)
 	print()
 	for dir in installed_docs:
-		print(Fore.GREEN + Style.BRIGHT + dir + ' '*(35 - len(dir)) + Fore.WHITE + Style.NORMAL + utils.package_info(dir,'summary'))
+		print(Fore.GREEN + Style.BRIGHT + dir + ' '*(25 - len(dir)) + Fore.WHITE + Style.NORMAL + utils.package_info(dir,'summary'))
 	print(end = '\n')
 
