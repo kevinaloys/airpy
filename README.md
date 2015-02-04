@@ -19,7 +19,7 @@ Run::
     $ airpy
 
 
-![airpy](http://i.imgur.com/8ovPxQg.png)
+
 
 
     Usage: airpy [OPTIONS] COMMAND [ARGS]...
@@ -36,6 +36,8 @@ Run::
         remove     Remove an installed doc.
         start      Start a doc in a browser.
 
+
+![airpy](http://i.imgur.com/8ovPxQg.png)
 
 Install a Documentation::
 
