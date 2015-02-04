@@ -5,7 +5,7 @@ AirPy: Documentation Installer for the Pythonic Soul
 
 ![](https://pypip.in/download/airpy/badge.svg?style=flat)
 
-![airpy](http://i.imgur.com/8ovPxQg.png?1)
+
 
 Usage
 -----
@@ -18,6 +18,7 @@ Run::
 
     $ airpy
 
+![airpy](http://i.imgur.com/8ovPxQg.png?1)
 
     Usage: airpy [OPTIONS] COMMAND [ARGS]...
 
