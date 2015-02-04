@@ -18,10 +18,6 @@ Run::
 
     $ airpy
 
-
-
-
-
     Usage: airpy [OPTIONS] COMMAND [ARGS]...
 
         AirPy : Documentation Installer for the Python
