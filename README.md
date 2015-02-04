@@ -5,7 +5,7 @@ AirPy: Documentation Installer for the Pythonic Soul
 
 .. image:: https://pypip.in/download/airpy/badge.svg?style=flat
 
-[Imgur](http://i.imgur.com/8ovPxQg.png?1)
+![airpy](http://i.imgur.com/8ovPxQg.png?1)
 
 Usage
 -----
