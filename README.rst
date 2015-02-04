@@ -5,6 +5,8 @@ AirPy: Documentation Installer for the Pythonic Soul
 
 .. image:: https://pypip.in/download/airpy/badge.svg?style=flat
 
+.. image:: http://imgur.com/8ovPxQg
+
 Usage
 -----
 
@@ -15,9 +17,6 @@ Installation::
 Run::
 
     $ airpy
-
-    
-    .. image:: http://imgur.com/8ovPxQg
 
 
     Usage: airpy [OPTIONS] COMMAND [ARGS]...
