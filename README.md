@@ -39,7 +39,7 @@ Install a Documentation::
 
     $ airpy install requests
 
-Start the Documentation in a browser::
+Start the Documentation in a browser
     
     $ airpy start requests
 
@@ -47,7 +47,7 @@ Remove a Documentation::
 
     $ airpy remove requests
 
-AirPy Autopilot : Install Documentation for Python packages already installed in your system.::
+AirPy Autopilot : Install Documentation for Python packages already installed in your system.
 
     $ airpy autopilot
 
