@@ -17,7 +17,7 @@ Run::
     $ airpy
 
     
-        .. image:: http://imgur.com/8ovPxQg
+    .. image:: http://imgur.com/8ovPxQg
 
 
     Usage: airpy [OPTIONS] COMMAND [ARGS]...
