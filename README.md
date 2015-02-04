@@ -1,9 +1,9 @@
 AirPy: Documentation Installer for the Pythonic Soul
 ====================================================
 
-.. image :: https://travis-ci.org/kevinaloys/airpy.svg
+![](https://travis-ci.org/kevinaloys/airpy.svg)
 
-.. image :: https://pypip.in/download/airpy/badge.svg?style=flat
+![](https://pypip.in/download/airpy/badge.svg?style=flat)
 
 
 
@@ -19,7 +19,7 @@ Run::
     $ airpy
 
 
-.. image :: http://i.imgur.com/8ovPxQg.png
+![airpy](http://i.imgur.com/8ovPxQg.png)
 
 
     Usage: airpy [OPTIONS] COMMAND [ARGS]...
@@ -55,4 +55,4 @@ AirPy Autopilot : Install Documentation for Python packages already installed in
     $ airpy list
       flask   requests   django   sphinx   wheel   setuptools
 
-![airpy list](http://imgur.com/8VHRkeK)
+![airpy list](http://i.imgur.com/8VHRkeK.png)
