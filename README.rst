@@ -1,9 +1,9 @@
 AirPy: Documentation Installer for the Pythonic Soul
 ====================================================
 
-..image : https://travis-ci.org/kevinaloys/airpy.svg
+..image :: https://travis-ci.org/kevinaloys/airpy.svg
 
-..iamge : https://pypip.in/download/airpy/badge.svg?style=flat
+..image :: https://pypip.in/download/airpy/badge.svg?style=flat
 
 
 
@@ -18,7 +18,7 @@ Run::
 
     $ airpy
 
-![airpy](http://i.imgur.com/8ovPxQg.png?1)
+.. image :: http://i.imgur.com/8ovPxQg.png?1
 
     Usage: airpy [OPTIONS] COMMAND [ARGS]...
 
