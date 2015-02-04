@@ -52,7 +52,9 @@ Remove a Documentation::
 AirPy Autopilot : Install Documentation for Python packages already installed in your system.::
 
     $ airpy autopilot
+
+List Installed Documentation
+
     $ airpy list
-      flask   requests   django   sphinx   wheel   setuptools
 
 ![airpy list](http://i.imgur.com/8VHRkeK.png)
