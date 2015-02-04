@@ -1,9 +1,9 @@
 AirPy: Documentation Installer for the Pythonic Soul
 ====================================================
 
-https://travis-ci.org/kevinaloys/airpy.svg
+!(https://travis-ci.org/kevinaloys/airpy.svg)
 
-https://pypip.in/download/airpy/badge.svg?style=flat
+!(https://pypip.in/download/airpy/badge.svg?style=flat)
 
 ![airpy](http://i.imgur.com/8ovPxQg.png?1)
 
