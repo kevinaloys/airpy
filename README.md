@@ -1,4 +1,4 @@
-AirPy: Documentation Installer for the Python
+AirPy: Documentation Installer for Python
 =============================================
 
 ![](https://travis-ci.org/kevinaloys/airpy.svg)
