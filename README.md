@@ -1,5 +1,5 @@
-AirPy: Documentation Installer for Python
-=============================================
+AirPy: Documentation Installer for Pythonic Soul
+================================================
 
 ![](https://travis-ci.org/kevinaloys/airpy.svg)
 
