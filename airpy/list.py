@@ -1,7 +1,7 @@
 from __future__ import print_function
 import os
 import airpy
-import json
+import simplejson as json
 import click
 import requests
 from airpy import utils

@@ -4,9 +4,10 @@ import zipfile
 import click
 import io
 import airpy
-import json
+import simplejson as json
 
 from airpy import utils
+
 
 def install_metadata(name):
 	directory = airpy.data_directory + '/' + name
@@ -18,6 +19,7 @@ def install_metadata(name):
 		return True
 	else:
 		return False
+
 
 def airinstall(name):
 	if utils.is_doc_installed(name):
