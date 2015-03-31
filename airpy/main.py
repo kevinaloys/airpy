@@ -9,6 +9,7 @@ from airpy.autopilot import airautopilot
    
 """
 def main():
+
     @click.group()
     def airpy():
         """AirPy : Documentation Installer for the Pythonic Soul"""
@@ -34,9 +35,8 @@ def main():
 
     """
     @airpy.command(help='Remove an installed doc.')
-    @click.argument('name')
-    @click.option('--all')
-    def remove(name, all):
+    @click.argument('name', nargs = -1)
+    def remove(name):
         airremove(name)
 
 
@@ -53,6 +53,16 @@ def main():
     @airpy.command(help='Auto install docs.')
     def autopilot():
         airautopilot()
+
+
+    """
+
+    """
+    @airpy.command(help='Show information about installed doc.')
+    @click.argument('name')
+    def show():
+        airshow(name)
+
 
     airpy()
 
