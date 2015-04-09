@@ -46,6 +46,10 @@ Remove a Documentation::
 
     $ airpy remove requests
 
+Remove Multiple Documentation::
+
+    $ airpy remove requests django pyramid flask
+
 AirPy Autopilot : Install Documentation for Python packages already installed in your system.
 
     $ airpy autopilot
